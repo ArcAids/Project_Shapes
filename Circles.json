@@ -1,0 +1,628 @@
+{
+  "Circles": [
+    {
+      "CenterX": 465.357,
+      "CenterY": 174.094,
+      "Radius": 48.787,
+      "Id": 1
+    },
+    {
+      "Id": 11,
+      "CenterX": 196.507,
+      "CenterY": 256.28,
+      "Radius": 0.779
+    },
+    {
+      "Id": 15,
+      "CenterX": 451.535,
+      "CenterY": 168.704,
+      "Radius": 17.069
+    },
+    {
+      "Id": 18,
+      "CenterX": 300.071,
+      "CenterY": 497.36,
+      "Radius": 14.189
+    },
+    {
+      "Id": 22,
+      "CenterX": 256.103,
+      "CenterY": 27.803,
+      "Radius": 8.559
+    },
+    {
+      "Id": 34,
+      "CenterX": 281.545,
+      "CenterY": 144.861,
+      "Radius": 5.283
+    },
+    {
+      "Id": 38,
+      "CenterX": 300.421,
+      "CenterY": 302.472,
+      "Radius": 34.51
+    },
+    {
+      "Id": 40,
+      "CenterX": 271.639,
+      "CenterY": 11.588,
+      "Radius": 23.101
+    },
+    {
+      "Id": 43,
+      "CenterX": 235.877,
+      "CenterY": 406.095,
+      "Radius": 20.106
+    },
+    {
+      "Id": 52,
+      "CenterX": 69.945,
+      "CenterY": 443.212,
+      "Radius": 12.84
+    },
+    {
+      "Id": 53,
+      "CenterX": 116.259,
+      "CenterY": 341.382,
+      "Radius": 30.706
+    },
+    {
+      "Id": 55,
+      "CenterX": 299.348,
+      "CenterY": 364.475,
+      "Radius": 1.721
+    },
+    {
+      "Id": 57,
+      "CenterX": 202.224,
+      "CenterY": 56.373,
+      "Radius": 22.672
+    },
+    {
+      "Id": 67,
+      "CenterX": 481.116,
+      "CenterY": 280.515,
+      "Radius": 33.962
+    },
+    {
+      "Id": 68,
+      "CenterX": 470.696,
+      "CenterY": 21.758,
+      "Radius": 49.961
+    },
+    {
+      "Id": 71,
+      "CenterX": 454.572,
+      "CenterY": 79.855,
+      "Radius": 12.859
+    },
+    {
+      "Id": 78,
+      "CenterX": 369.651,
+      "CenterY": 174.465,
+      "Radius": 8.562
+    },
+    {
+      "Id": 87,
+      "CenterX": 86.467,
+      "CenterY": 332.166,
+      "Radius": 11.699
+    },
+    {
+      "Id": 90,
+      "CenterX": 20.765,
+      "CenterY": 290.077,
+      "Radius": 44.882
+    },
+    {
+      "Id": 97,
+      "CenterX": 257.148,
+      "CenterY": 264.972,
+      "Radius": 47.968
+    },
+    {
+      "Id": 98,
+      "CenterX": 282.69,
+      "CenterY": 156.973,
+      "Radius": 11.781
+    },
+    {
+      "Id": 103,
+      "CenterX": 74.241,
+      "CenterY": 362.968,
+      "Radius": 16.077
+    },
+    {
+      "Id": 108,
+      "CenterX": 103.081,
+      "CenterY": 145.083,
+      "Radius": 5.261
+    },
+    {
+      "Id": 109,
+      "CenterX": 257.846,
+      "CenterY": 144.901,
+      "Radius": 3.907
+    },
+    {
+      "Id": 111,
+      "CenterX": 349.072,
+      "CenterY": 365.827,
+      "Radius": 46.771
+    },
+    {
+      "Id": 118,
+      "CenterX": 117.558,
+      "CenterY": 64.798,
+      "Radius": 13.699
+    },
+    {
+      "Id": 125,
+      "CenterX": 34.262,
+      "CenterY": 58.214,
+      "Radius": 41.905
+    },
+    {
+      "Id": 128,
+      "CenterX": 118.22,
+      "CenterY": 343.864,
+      "Radius": 31.456
+    },
+    {
+      "Id": 141,
+      "CenterX": 112.011,
+      "CenterY": 339.331,
+      "Radius": 18.383
+    },
+    {
+      "Id": 151,
+      "CenterX": 91.189,
+      "CenterY": 205.34,
+      "Radius": 37.546
+    },
+    {
+      "Id": 152,
+      "CenterX": 472.033,
+      "CenterY": 219.492,
+      "Radius": 45.603
+    },
+    {
+      "Id": 173,
+      "CenterX": 340.982,
+      "CenterY": 97.94,
+      "Radius": 8.062
+    },
+    {
+      "Id": 174,
+      "CenterX": 489.752,
+      "CenterY": 327.465,
+      "Radius": 45.428
+    },
+    {
+      "Id": 175,
+      "CenterX": 213.43,
+      "CenterY": 276.215,
+      "Radius": 17.084
+    },
+    {
+      "Id": 177,
+      "CenterX": 87.226,
+      "CenterY": 215.024,
+      "Radius": 35.599
+    },
+    {
+      "Id": 179,
+      "CenterX": 334.49,
+      "CenterY": 47.504,
+      "Radius": 25.681
+    },
+    {
+      "Id": 182,
+      "CenterX": 281.179,
+      "CenterY": 30.226,
+      "Radius": 22.477
+    },
+    {
+      "Id": 186,
+      "CenterX": 32.134,
+      "CenterY": 121.555,
+      "Radius": 43.426
+    },
+    {
+      "Id": 187,
+      "CenterX": 372.696,
+      "CenterY": 275.595,
+      "Radius": 37.856
+    },
+    {
+      "Id": 189,
+      "CenterX": 407.304,
+      "CenterY": 378.968,
+      "Radius": 12.831
+    },
+    {
+      "Id": 203,
+      "CenterX": 377.628,
+      "CenterY": 251.484,
+      "Radius": 21.406
+    },
+    {
+      "Id": 206,
+      "CenterX": 187.348,
+      "CenterY": 314.477,
+      "Radius": 2.227
+    },
+    {
+      "Id": 209,
+      "CenterX": 402.66,
+      "CenterY": 459.098,
+      "Radius": 41.342
+    },
+    {
+      "Id": 212,
+      "CenterX": 331.86,
+      "CenterY": 387.546,
+      "Radius": 22.927
+    },
+    {
+      "Id": 214,
+      "CenterX": 426.505,
+      "CenterY": 78.18,
+      "Radius": 43.692
+    },
+    {
+      "Id": 217,
+      "CenterX": 53.481,
+      "CenterY": 427.009,
+      "Radius": 49.993
+    },
+    {
+      "Id": 224,
+      "CenterX": 258.931,
+      "CenterY": 421.813,
+      "Radius": 19.897
+    },
+    {
+      "Id": 228,
+      "CenterX": 301.029,
+      "CenterY": 70.157,
+      "Radius": 10.663
+    },
+    {
+      "Id": 230,
+      "CenterX": 86.723,
+      "CenterY": 291.693,
+      "Radius": 21.864
+    },
+    {
+      "Id": 233,
+      "CenterX": 132.225,
+      "CenterY": 301.282,
+      "Radius": 40.516
+    },
+    {
+      "Id": 234,
+      "CenterX": 19.357,
+      "CenterY": 256.776,
+      "Radius": 8.503
+    },
+    {
+      "Id": 238,
+      "CenterX": 388.498,
+      "CenterY": 352.085,
+      "Radius": 41.094
+    },
+    {
+      "Id": 239,
+      "CenterX": 179.129,
+      "CenterY": 171.829,
+      "Radius": 43.979
+    },
+    {
+      "Id": 250,
+      "CenterX": 417.956,
+      "CenterY": 334.045,
+      "Radius": 22.745
+    },
+    {
+      "Id": 251,
+      "CenterX": 228.587,
+      "CenterY": 453.594,
+      "Radius": 45.649
+    },
+    {
+      "Id": 254,
+      "CenterX": 237.599,
+      "CenterY": 231.295,
+      "Radius": 48.305
+    },
+    {
+      "Id": 255,
+      "CenterX": 222.865,
+      "CenterY": 50.504,
+      "Radius": 19.424
+    },
+    {
+      "Id": 258,
+      "CenterX": 145.179,
+      "CenterY": 141.045,
+      "Radius": 48.817
+    },
+    {
+      "Id": 262,
+      "CenterX": 202.521,
+      "CenterY": 209.491,
+      "Radius": 18.316
+    },
+    {
+      "Id": 267,
+      "CenterX": 128.917,
+      "CenterY": 308.237,
+      "Radius": 46.194
+    },
+    {
+      "Id": 283,
+      "CenterX": 167.788,
+      "CenterY": 99.574,
+      "Radius": 37.365
+    },
+    {
+      "Id": 288,
+      "CenterX": 439.582,
+      "CenterY": 176.489,
+      "Radius": 0.829
+    },
+    {
+      "Id": 308,
+      "CenterX": 452.787,
+      "CenterY": 150.687,
+      "Radius": 27.813
+    },
+    {
+      "Id": 314,
+      "CenterX": 381.347,
+      "CenterY": 343.106,
+      "Radius": 36.245
+    },
+    {
+      "Id": 326,
+      "CenterX": 172.129,
+      "CenterY": 356.553,
+      "Radius": 37.361
+    },
+    {
+      "Id": 335,
+      "CenterX": 397.903,
+      "CenterY": 142.022,
+      "Radius": 21.502
+    },
+    {
+      "Id": 336,
+      "CenterX": 155.136,
+      "CenterY": 378.688,
+      "Radius": 31.434
+    },
+    {
+      "Id": 342,
+      "CenterX": 413.022,
+      "CenterY": 145.012,
+      "Radius": 48.087
+    },
+    {
+      "Id": 346,
+      "CenterX": 304.806,
+      "CenterY": 80.153,
+      "Radius": 20.491
+    },
+    {
+      "Id": 359,
+      "CenterX": 7.37,
+      "CenterY": 67.374,
+      "Radius": 19.864
+    },
+    {
+      "Id": 360,
+      "CenterX": 135.332,
+      "CenterY": 201.348,
+      "Radius": 0.75
+    },
+    {
+      "Id": 363,
+      "CenterX": 143.734,
+      "CenterY": 420.77,
+      "Radius": 28.122
+    },
+    {
+      "Id": 366,
+      "CenterX": 35.64,
+      "CenterY": 373.311,
+      "Radius": 8.357
+    },
+    {
+      "Id": 367,
+      "CenterX": 151.243,
+      "CenterY": 206.131,
+      "Radius": 46.608
+    },
+    {
+      "Id": 373,
+      "CenterX": 156.181,
+      "CenterY": 483.148,
+      "Radius": 49.627
+    },
+    {
+      "Id": 377,
+      "CenterX": 197.381,
+      "CenterY": 261.378,
+      "Radius": 18.994
+    },
+    {
+      "Id": 380,
+      "CenterX": 287.588,
+      "CenterY": 190.173,
+      "Radius": 6.163
+    },
+    {
+      "Id": 381,
+      "CenterX": 380.129,
+      "CenterY": 47.886,
+      "Radius": 25.175
+    },
+    {
+      "Id": 384,
+      "CenterX": 219.628,
+      "CenterY": 317.423,
+      "Radius": 45.029
+    },
+    {
+      "Id": 386,
+      "CenterX": 403.607,
+      "CenterY": 435.766,
+      "Radius": 46.115
+    },
+    {
+      "Id": 392,
+      "CenterX": 470.513,
+      "CenterY": 420.508,
+      "Radius": 3.832
+    },
+    {
+      "Id": 395,
+      "CenterX": 52.575,
+      "CenterY": 379.483,
+      "Radius": 2.818
+    },
+    {
+      "Id": 397,
+      "CenterX": 348.853,
+      "CenterY": 348.502,
+      "Radius": 17.147
+    },
+    {
+      "Id": 399,
+      "CenterX": 234.044,
+      "CenterY": 427.647,
+      "Radius": 10.264
+    },
+    {
+      "Id": 400,
+      "CenterX": 166.182,
+      "CenterY": 116.31,
+      "Radius": 34.643
+    },
+    {
+      "Id": 407,
+      "CenterX": 493.504,
+      "CenterY": 196.189,
+      "Radius": 14.071
+    },
+    {
+      "Id": 409,
+      "CenterX": 298.289,
+      "CenterY": 203.801,
+      "Radius": 22.31
+    },
+    {
+      "Id": 412,
+      "CenterX": 332.079,
+      "CenterY": 101.001,
+      "Radius": 32.504
+    },
+    {
+      "Id": 419,
+      "CenterX": 71.819,
+      "CenterY": 82.889,
+      "Radius": 21.412
+    },
+    {
+      "Id": 422,
+      "CenterX": 365.368,
+      "CenterY": 71.768,
+      "Radius": 10.53
+    },
+    {
+      "Id": 423,
+      "CenterX": 12.737,
+      "CenterY": 198.39,
+      "Radius": 30.877
+    },
+    {
+      "Id": 427,
+      "CenterX": 182.969,
+      "CenterY": 362.707,
+      "Radius": 25.721
+    },
+    {
+      "Id": 429,
+      "CenterX": 8.94,
+      "CenterY": 468.331,
+      "Radius": 27.96
+    },
+    {
+      "Id": 430,
+      "CenterX": 477.017,
+      "CenterY": 263.26,
+      "Radius": 49.885
+    },
+    {
+      "Id": 434,
+      "CenterX": 82.817,
+      "CenterY": 173.42,
+      "Radius": 33.871
+    },
+    {
+      "Id": 440,
+      "CenterX": 296.282,
+      "CenterY": 442.858,
+      "Radius": 45.868
+    },
+    {
+      "Id": 447,
+      "CenterX": 140.286,
+      "CenterY": 246.175,
+      "Radius": 5.312
+    },
+    {
+      "Id": 463,
+      "CenterX": 425.682,
+      "CenterY": 437.805,
+      "Radius": 8.545
+    },
+    {
+      "Id": 474,
+      "CenterX": 123.793,
+      "CenterY": 42.198,
+      "Radius": 5.57
+    },
+    {
+      "Id": 476,
+      "CenterX": 27.106,
+      "CenterY": 466.399,
+      "Radius": 15.421
+    },
+    {
+      "Id": 483,
+      "CenterX": 208.74,
+      "CenterY": 35.314,
+      "Radius": 16.039
+    },
+    {
+      "Id": 493,
+      "CenterX": 446.083,
+      "CenterY": 93.184,
+      "Radius": 44.387
+    },
+    {
+      "Id": 494,
+      "CenterX": 492.03,
+      "CenterY": 6.931,
+      "Radius": 23.832
+    },
+    {
+      "Id": 496,
+      "CenterX": 249.133,
+      "CenterY": 464.626,
+      "Radius": 33.693
+    }
+  ]
+}
