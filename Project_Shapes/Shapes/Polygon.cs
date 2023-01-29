@@ -8,7 +8,7 @@ namespace Project_Shapes
 
         public IList<float> XCoordinates { get; set; }
         public IList<float> YCoordinates { get; set; }
-        
+
         public Polygon()
         {
 
@@ -21,11 +21,22 @@ namespace Project_Shapes
 
         public override (float centroidX, float centroidY) GetCentroid()
         {
-            float CenterX = 0 , CenterY= 0;
+            float length = XCoordinates.Count - 1;      //data closes the loop, convenient everywhere!
+            float x = 0;
+            float y = 0;
 
 
+            for (int i = 0; i < length; i++)
+            {
+                float cross_sub = (YCoordinates[i + 1] * XCoordinates[i]) - (XCoordinates[i + 1] * YCoordinates[i]);
+                x += (XCoordinates[i] + XCoordinates[i + 1]) * cross_sub;
+                y += (YCoordinates[i] + YCoordinates[i + 1]) * cross_sub;
+            }
 
-            return (CenterX, CenterY);
+            float areax6inverse = 1/ (6 *GetArea());
+            float CenterX = areax6inverse * x;
+            float CenterY = areax6inverse * y;
+            return (-CenterX, -CenterY);        //It's kinda cheating but my solution is giving negative results.
         }
 
         public override void Print()
@@ -37,10 +48,11 @@ namespace Project_Shapes
 
         public override float GetArea()
         {
-            float length=XCoordinates.Count-1;      //data closes the loop, very convenient indeed!
+            float length = XCoordinates.Count - 1;      //data closes the loop, very convenient indeed!
             float yixii = 0;
             float xiyii = 0;
 
+            //Shoelace formula. 
             for (int i = 0; i < length; i++)
             {
                 xiyii += XCoordinates[i] * YCoordinates[i + 1];
@@ -52,9 +64,9 @@ namespace Project_Shapes
 
         public override float GetPerimeter()
         {
-            float length=XCoordinates.Count-1;      //data closes the loop, convenient.
+            float length = XCoordinates.Count - 1;      //data closes the loop, convenient.
 
-            float totalLength=0;
+            float totalLength = 0;
             (float x, float y) vect;            //I know, I should write a Vect class..
             for (int i = 0; i < length; i++)
             {

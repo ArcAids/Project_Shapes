@@ -42,9 +42,9 @@ namespace Project_Shapes
                 outputString.Append(shape.GetArea().ToString() + ", ");
                 outputString.Append(shape.GetPerimeter().ToString()+ ", ");
 
-                var (centeroidX, centeroidY) = shape.GetCentroid();
-                outputString.Append(centeroidX.ToString()+ ", ");
-                outputString.Append(centeroidY.ToString() + "\n");
+                var (centroidX, centroidY) = shape.GetCentroid();
+                outputString.Append(centroidX.ToString()+ ", ");
+                outputString.Append(centroidY.ToString() + "\n");
             }
         }
     }
