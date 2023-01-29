@@ -1,45 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Project_Shapes.ShapeData">
-    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Position X="6" Y="1.75" Width="1.5" />
+    <AssociationLine Name="EquilateralTriangles" Type="System.Collections.Generic.IList&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="2.688" />
+        <Point X="9.75" Y="2.688" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Polygons" Type="System.Collections.Generic.IList&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="2.375" />
+        <Point X="9.75" Y="2.375" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAQABAAAAAAAQAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABIQABAAAAAAAQAAAAAAAAAABBAAAAAAAAAA=</HashCode>
       <FileName>Shapes\ShapeData.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Squares" />
+      <Property Name="Circles" />
+      <Property Name="Ellipses" />
+      <Property Name="EquilateralTriangles" />
+      <Property Name="Polygons" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Project_Shapes.ShapeBase" Collapsed="true">
     <Position X="2.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
       <FileName>Shapes\ShapeBase.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Project_Shapes.GenericShape" Collapsed="true">
-    <Position X="1.25" Y="2.5" Width="1.5" />
+  <Class Name="Project_Shapes.Polygon" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
-      <FileName>Shapes\GenericShape.cs</FileName>
+      <HashCode>AAQAAAAAAAIAAAAAAAIAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
+      <FileName>Shapes\Polygon.cs</FileName>
+      <NewMemberFileName>Shapes\GenericShape.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_Shapes.Circle" Collapsed="true">
-    <Position X="0.75" Y="3.5" Width="1.5" />
+    <Position X="0.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
       <FileName>Shapes\Circle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_Shapes.Ellipse" Collapsed="true">
-    <Position X="2.5" Y="3.5" Width="1.5" />
+    <Position X="0.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAABAAAAAAAAgAAEAAAAAEAAEAAA=</HashCode>
       <FileName>Shapes\Ellipse.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="System.Collections.Generic.IList&lt;T&gt;" Collapsed="true">
-    <Position X="9" Y="1.5" Width="1.5" />
+  <Class Name="Project_Shapes.EquilateralTriangle" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
+      <FileName>Shapes\EquilateralTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_Shapes.Square" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEAAAAAEAAEAAA=</HashCode>
+      <FileName>Shapes\Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_Shapes.GenericShape" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAGAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Shapes\GenericShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.Collections.Generic.IList&lt;T&gt;">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier />
   </Interface>
   <Font Name="Segoe UI" Size="9" />

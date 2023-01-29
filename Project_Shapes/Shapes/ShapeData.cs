@@ -15,6 +15,7 @@ namespace Project_Shapes
         public IList<Ellipse> Ellipses { get; set; }
         public IList<Circle> Circles { get; set; }
         public IList<EquilateralTriangle> EquilateralTriangles { get; set; }
+        public IList<Polygon> Polygons { get; set; }
 
         public string GetAreaAndPerimiterString()
         {
@@ -26,6 +27,7 @@ namespace Project_Shapes
             AppendShapesFromList(ref outputString, Ellipses);
             AppendShapesFromList(ref outputString, Circles);
             AppendShapesFromList(ref outputString, EquilateralTriangles);
+            AppendShapesFromList(ref outputString, Polygons);
         
             return outputString.ToString();
         }
