@@ -19,7 +19,7 @@ namespace Project_Shapes
         public abstract float GetArea();
         public abstract float GetPerimeter();
         //but then this returntypes exist on c#.
-        public abstract (float centeroidX, float centeroidY) GetCenteroid();
+        public abstract (float centroidX, float centroidY) GetCentroid();
 
         public virtual void Print()
         {

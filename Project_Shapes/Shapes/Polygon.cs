@@ -19,7 +19,7 @@ namespace Project_Shapes
 
         }
 
-        public override (float centeroidX, float centeroidY) GetCenteroid()
+        public override (float centroidX, float centroidY) GetCentroid()
         {
             float CenterX = 0 , CenterY= 0;
 
