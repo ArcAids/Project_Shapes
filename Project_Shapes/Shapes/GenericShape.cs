@@ -18,6 +18,11 @@ namespace Project_Shapes
             this.CenterY = centerY;
         }
 
+        public override (float centeroidX, float centeroidY) GetCenteroid()
+        {
+            return (CenterX,CenterY);
+        }
+
         public override void Print()
         {
             base.Print();

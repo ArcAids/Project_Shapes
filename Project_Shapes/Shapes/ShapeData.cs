@@ -36,7 +36,11 @@ namespace Project_Shapes
             {
                 outputString.Append(shape.Id.ToString() + ", ");
                 outputString.Append(shape.GetArea().ToString() + ", ");
-                outputString.Append(shape.GetPerimeter().ToString() + "\n");
+                outputString.Append(shape.GetPerimeter().ToString()+ ", ");
+
+                var (centeroidX, centeroidY) = shape.GetCenteroid();
+                outputString.Append(centeroidX.ToString()+ ", ");
+                outputString.Append(centeroidY.ToString() + "\n");
             }
         }
     }

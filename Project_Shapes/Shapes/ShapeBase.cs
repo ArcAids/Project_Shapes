@@ -15,8 +15,11 @@ namespace Project_Shapes
             this.Id = ID;
         }
 
+        //Can't believe c# doesn't have "const functions"...
         public abstract float GetArea();
         public abstract float GetPerimeter();
+        //but then this returntypes exist on c#.
+        public abstract (float centeroidX, float centeroidY) GetCenteroid();
 
         public virtual void Print()
         {
