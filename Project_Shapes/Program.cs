@@ -20,6 +20,9 @@ namespace Project_Shapes
 
             Debug.Assert(data!=null, "Couldn't read the file specified.");
 
+            //Should write some unit tests for these..
+            //Elipse eli = new Elipse(1, 0, 0, 1, 2);
+            //Console.WriteLine("Circumference: " + eli.GetPerimeter());
           
             FileIO.WriteFile(outputFileName, data.GetAreaAndPerimiterString());
         }
