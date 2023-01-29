@@ -19,6 +19,19 @@ namespace ShapesTests
             Assert.AreEqual(peri, square.GetPerimeter(), 0, "No way! Perimeter of square is wrong.");
         }
 
+         [TestMethod]
+        public void TriangleTest()
+        {
+            float sideLength = 4;
+            float area = 6.9282f;
+            float peri = 12;
+
+            EquilateralTriangle triangle = new EquilateralTriangle(0, 0, 0, sideLength);
+
+            Assert.AreEqual(area, triangle.GetArea(), 0.01f, "Triangle Area is wrong.");
+            Assert.AreEqual(peri, triangle.GetPerimeter(), 0, "Triangle peritheplatypusmeter wrong.");
+        }
+
 
         [TestMethod]
         public void EllipseTest()
