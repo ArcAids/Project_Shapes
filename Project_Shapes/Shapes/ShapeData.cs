@@ -8,6 +8,9 @@ namespace Project_Shapes
     {
         //It could easily hold list of ShapeBase and that list could hold all the different shapes.
         //but if we know that there won't be new shapes, it's easier to have them separately.
+
+        //There's also security issue here with everything being so public. but JsonSerializer needs this to be public to work.
+        //I do know a solution, might end up implementing that eventually.
         public IList<Square> Squares { get; set; }
         public IList<Ellipse> Ellipses { get; set; }
         public IList<Circle> Circles { get; set; }
